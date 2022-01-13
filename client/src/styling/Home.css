@@ -55,8 +55,12 @@
   width: auto;
 }
 
+.care {
+  font-size: 60px;
+}
+
 .pup {
-  height: 400px;
+  height: 370px;
   width: auto;
   border-radius: 3%;
 }
@@ -65,5 +69,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 470px;
+}
+
+.split-left {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 250px;
+  margin-bottom: 300px;
+  left: 0;
+}
+
+.split-right {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 0;
+  overflow-x: hidden;
+  justify-content: left;
+  padding-top: 170px;
+  padding-bottom: 300px;
+  right: 0;
 }

@@ -10,8 +10,6 @@ function App() {
       <Switch>
         <Route path="/" component={Home} exact></Route>
         <Route path="/appointment" component={Appointment}></Route>
-        <Route path="/services" component={Home}></Route>
-        <Route path="/pricing" component={Home}></Route>
       </Switch>
     </Router>
   );

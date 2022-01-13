@@ -22,7 +22,12 @@ const Home = () => {
       <div>
         <img src="../paws.png" className="logo" alt="paws-logo"></img>
       </div>
-      <div>
+      <div className="split-left">
+        <div className="care">
+          Get premium care, in the comfort of your home.
+        </div>
+      </div>
+      <div className="split-right">
         <img src="../pup.png" className="pup" alt="dog" />
       </div>
       <div className="appointment-button">
