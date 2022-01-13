@@ -1,0 +1,69 @@
+.Home {
+  text-align: center;
+  font-family: BreeSerif-Regular;
+}
+
+@font-face {
+  font-family: BreeSerif-Regular;
+  src: url(./BreeSerif-Regular.ttf);
+}
+
+.home-link {
+  margin: 50px;
+  position: absolute;
+  margin-top: 50px;
+  left: 0;
+}
+
+.services-link {
+  margin: 50px;
+  position: absolute;
+  margin-top: 50px;
+  left: 65px;
+}
+
+.pricing-link {
+  margin: 50px;
+  position: absolute;
+  margin-top: 50px;
+  left: 150px;
+}
+
+.ig {
+  margin: 50px;
+  position: absolute;
+  margin-top: 50px;
+  right: 200px;
+}
+
+.fb {
+  margin: 50px;
+  position: absolute;
+  margin-top: 50px;
+  right: 160px;
+}
+
+.contact {
+  margin: 50px;
+  position: absolute;
+  margin-top: 43px;
+  right: 20px;
+}
+
+.logo {
+  height: 120px;
+  width: auto;
+}
+
+.pup {
+  height: 400px;
+  width: auto;
+  border-radius: 3%;
+}
+
+.appointment-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}

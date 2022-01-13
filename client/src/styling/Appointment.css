@@ -1,0 +1,16 @@
+.Appointment {
+  text-align: center;
+  font-family: BreeSerif-Regular;
+  background-color: #f4d8e4;
+  min-height: 100vh;
+}
+
+.AppointmentForm {
+  background-image: url("../../public/treats.png");
+  height: 100%;
+}
+
+@font-face {
+  font-family: BreeSerif-Regular;
+  src: url(./BreeSerif-Regular.ttf);
+}
