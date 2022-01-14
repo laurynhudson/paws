@@ -1,16 +1,29 @@
 .Appointment {
   text-align: center;
   font-family: BreeSerif-Regular;
-  background-color: #f4d8e4;
-  min-height: 100vh;
 }
 
 .AppointmentForm {
-  background-image: url("../../public/treats.png");
-  height: 100%;
+  /* background-image: url("../../public/treats.png");
+  height: 100%;  */
+  padding-top: 75px;
 }
 
 @font-face {
   font-family: BreeSerif-Regular;
   src: url(./BreeSerif-Regular.ttf);
+}
+
+/* .form {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  width: 50%;
+  border-radius: 3%;
+  background-image: url("../../public/treats.png");
+} */
+
+.form {
+  text-align: left;
+  margin-left: 25%;
 }

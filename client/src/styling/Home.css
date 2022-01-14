@@ -96,3 +96,14 @@
   padding-bottom: 300px;
   right: 0;
 }
+
+.footer {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.name {
+  margin: 10px;
+}
